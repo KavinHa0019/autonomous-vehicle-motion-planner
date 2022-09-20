@@ -663,7 +663,7 @@ def main():
     ax.plot(cell_x_kerb, cell_y_kerb, "s", color="darkgrey", label="Kerbs")
     ax.text(x_path[0], y_path[0], "S", fontsize=12)
     ax.text(x_path[-1], y_path[-1], "G", fontsize=12)
-    plt.title("A* Shortest Path in Cartesian Coordinate System")
+    plt.title("Hybrid A* Shortest Path in Cartesian Coordinate System")
     plt.xlabel("x [cells]")
     plt.ylabel("y [cells]")
     plt.legend(loc='best', fancybox=True, shadow=True)
