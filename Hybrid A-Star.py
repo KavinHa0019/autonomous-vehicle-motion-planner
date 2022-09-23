@@ -258,7 +258,7 @@ def euclidean(position, target, cont):
 
     if cont:        # cont = True
         dist = np.sqrt((position[0] - target[0]) ** 2 + (position[1] - target[1]) ** 2 +
-                       (np.deg2rad(position[2]) - np.deg2rad(target[2])) ** 2)
+                       (np.deg2rad(position[2]) - np.deg2rad(target[2])) % np.pi ** 2)
     else:           # cont = False
         dist = np.sqrt((position[0] - target[0]) ** 2 + (position[1] - target[1]) ** 2)
     return dist
