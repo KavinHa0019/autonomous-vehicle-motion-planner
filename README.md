@@ -22,6 +22,6 @@ Each program begins by generating the environment where the pathfinding problem 
 ### Changing Road Scenarios
 As previously mentioned, the pathfinding problem can take place in either a highway or intersection. By default, both programs simulate the highway scenario.
 
-### Credits
+### Credit
 This project was based on a similar project, created by jvirdi2:
 https://github.com/jvirdi2/A_star_and_Hybrid_A_star
