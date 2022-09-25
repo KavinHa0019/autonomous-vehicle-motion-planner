@@ -17,8 +17,7 @@ The project also requires the following external modules, whose parent libaries 
 ### Instructions for Running and Using the Project
 Both programs can be used immediately after installation, assuming the libraries mentioned above have also been installed along with Python 3.10.7.
 
-Each program begins by generating the environment where the pathfinding problem takes place in, by defining its boundaries and adding road boundaries (also known as "kerbs") to simulate one of two road scenarios: a highway and an intersection. This environment takes the form of a 50x50 square grid, consisting of 2500 evenly sized square cells. The programs then spawn a random number of obstacles at random cells within the kerbs, which the pathfinding algorithm is programmed to avoid. Appropriate start and goal positions are specified and the algorithm proceeds to explore the grid in order to reach the goal.
-
+Each program begins by generating the environment where the pathfinding problem takes place in, by defining its boundaries and adding road boundaries (also known as "kerbs") to simulate one of two road scenarios: a highway and an intersection. This environment takes the form of a 50x50 square grid, consisting of 2500 evenly sized square cells. Despite this, the algorithm is only permitted to explore a fraction of these cells, which are all located in between the kerbs. The program then spawns a random number of obstacles which the pathfinding algorithm is programmed to avoid. Appropriate start and goal positions are specified and the algorithm proceeds to explore the grid in order to reach the goal.
 
 ### Changing Road Scenarios
 As previously mentioned, the pathfinding problem can take place in either a highway or intersection. By default, both programs simulate the highway scenario.
