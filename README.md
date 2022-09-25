@@ -31,5 +31,5 @@ To revert back to the highway scenario:
 In any case, one and only one road scenario can be selected.
 
 ### Credit
-This project was based on a similar project, created by jvirdi2:
+This project is based on a similar project, created by jvirdi2:
 https://github.com/jvirdi2/A_star_and_Hybrid_A_star
