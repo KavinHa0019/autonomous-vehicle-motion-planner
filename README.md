@@ -14,7 +14,7 @@ The project also requires the following external modules, whose parent libaries 
 * scipy.interpolate (SciPy v1.8.1)
 * scipy.integrate.simpson (SciPy v1.8.1)
 
-### Project Overview
+### How the Project Works
 Each program begins by generating the environment where the pathfinding problem takes place in, by defining its boundaries and adding road boundaries (also known as "kerbs") to simulate one of two road scenarios: a highway and an intersection. This environment takes the form of a 50x50 square grid, consisting of 2500 evenly sized square cells. Despite this, the algorithm is only permitted to explore a fraction of these cells, which are all located in between the kerbs. The program then spawns a random number of obstacles which the pathfinding algorithm is programmed to avoid. Appropriate start and goal positions are specified and the algorithm proceeds to explore the grid in order to reach the goal.
 
 ### Instructions for Use
