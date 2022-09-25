@@ -2,7 +2,7 @@
 This repository contains the source code for two path planning algorithms, A* and hybrid A*. Both algorithms aim to identify the shortest path between two points on a grid that avoids collisions with any obstacles. The hybrid A* code includes a path smoother and velocity planner, which guarantee safety and enhance comfort for an autonomous vehicle.
 
 ### Project Requirements
-The project was developed and tested in Python 3.10.7, which requires the following built-in modules:
+The project was developed and tested in Python 3.10.7, and it requires the following built-in modules:
 * heapq
 * random
 * time.time
