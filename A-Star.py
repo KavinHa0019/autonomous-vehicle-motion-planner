@@ -186,8 +186,8 @@ def main():
 
     spacing = 3
 
-    """Kerbs for highway and intersection scenarios; comment lines 190-199 for intersection scenario, or comment lines
-    203-219 for highway scenario; one of the two must be commented out at all times"""
+    """Kerbs for highway and intersection scenarios; comment lines 194-204 for intersection scenario, or comment lines
+    208-225 for highway scenario; one of the two must be commented out at all times"""
 
     # HIGHWAY ----------------------------------------------------------------------------------------------------------
 
