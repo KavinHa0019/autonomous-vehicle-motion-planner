@@ -554,8 +554,11 @@ def main():
     j = itp.pchip_interpolate(s_spl3, j_spl, s)
     # a = Desired longitudinal acceleration at each node along shortest path
     # j = Desired jerk at each node along shortest path
+    
+    # Desired acceleration and jerk set to zero at goal node
+    # This ensures no change in velocity so vehicle can remain stationary when it arrives at goal node
+    a[-1], j[-1] = 0, 0
 
-    # From a and j,
     # Unlike acceleration and jerk profiles generated from original velocity profile, these new splines do not need...
     # ...to be clipped; they will always satisfy comfort constraints for all points along smoothed path
     # These new profiles generally exhibit more gradual changes in acceleration/jerk compared to their original...
