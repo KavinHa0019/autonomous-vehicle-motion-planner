@@ -1,4 +1,4 @@
-# Source code written and finalised by Kavin Ha
+# Source code written and finalised by Kavin Ha: https://github.com/KavinHa0019/autonomous-vehicle-motion-planner
 # Source code based off of jvirdi2's hybrid A* implementation: https://github.com/jvirdi2/A_star_and_Hybrid_A_star
 
 import heapq as hq
