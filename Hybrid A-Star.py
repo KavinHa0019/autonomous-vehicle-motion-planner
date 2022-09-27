@@ -422,8 +422,8 @@ def main():
     #     random.uniform(-10, 10) % 360
     # x_goal, y_goal, theta_goal = random.uniform(max_x/2 - 2, max_x/2 + 2), max_x - 1, \
     #     random.uniform(80, 100) % 360
-    # print("\nStart: (x=" + str(x_start) + ", y=" + str(y_start) + ", theta=" + str(theta_start) + ")")
-    # print("Goal:  (x=" + str(x_goal) + ", y=" + str(y_goal) + ", theta=" + str(theta_goal) + ")")
+    # print("> Start: (x=" + str(x_start) + ", y=" + str(y_start) + ", theta=" + str(theta_start) + ")")
+    # print("> Goal:  (x=" + str(x_goal) + ", y=" + str(y_goal) + ", theta=" + str(theta_goal) + ")")
     # print("> Road Scenario: Intersection")
     #
     # x_kerb = np.concatenate((np.tile(np.linspace(min_x, max_x - 1, max_x), 2),
