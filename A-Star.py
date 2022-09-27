@@ -207,8 +207,8 @@ def main():
 
     # x_start, y_start = min_x, random.uniform(max_x/2 - spacing, max_x/2 + spacing)
     # x_goal, y_goal = random.uniform(max_x/2 - spacing, max_x/2 + spacing), max_x - 1
-    # print("\nStart: (x=" + str(x_start) + ", y=" + str(y_start) + ")")
-    # print("Goal:  (x=" + str(x_goal) + ", y=" + str(y_goal)+ ")")
+    # print("> Start: (x=" + str(x_start) + ", y=" + str(y_start) + ")")
+    # print("> Goal:  (x=" + str(x_goal) + ", y=" + str(y_goal)+ ")")
     # print("> Road Scenario: Intersection")
     #
     # x_kerb = np.concatenate((np.tile(np.linspace(min_x, max_x - 1, max_x), 2),
