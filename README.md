@@ -43,6 +43,28 @@ To revert back to the highway scenario:
 
 In any case, one and only one road scenario can be selected.
 
+### Outputs
+* Terminal (A*):
+Displays coordinates of start and goal nodes, number of obstacles, scenario, motion planner status and execution time
+
+* Terminal (Hybrid A*):
+Displays the same information as the terminal in A*
+
+* Shortest path plot (A*, highway scenario):
+Graphical representation of the entire search grid, which contains kerbs, obstacles, the shortest path and every node along it (including the start and goal nodes)
+
+* Shortest path plot (Hybrid A*, intersection scenario):
+Same as the shortest path plot for A*, except it also contains the smoothed path
+
+* Velocity profile plots:
+Two profiles plotted on one graph: the maximum velocity profile which indicates the maximum allowable velocity the vehicle can travel at to guarantee safety, and the final/desired velocity profile which enhances passenger comfort
+
+* Acceleration profile plots:
+Three profiles plotted on one graph: the acceleration profile obtained from the maximum velocity profile, the same profile but clipped to fit acceleration constraints, and the final/desired acceleration profile which enhances passenger comfort 
+
+* Jerk profile plots:
+Three profiles plotted on one graph: the acceleration profile obtained from the maximum velocity profile, the same profile but clipped to fit jerk constraints, and the final/desired jerk profile which enhances passenger comfort 
+
 ### Credit
 This project is based on a similar project, created by jvirdi2:
 https://github.com/jvirdi2/A_star_and_Hybrid_A_star
