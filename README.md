@@ -47,7 +47,7 @@ In any case, one and only one road scenario can be selected.
 * Terminal (A*) -
 Displays coordinates of start and goal nodes, number of obstacles, scenario, motion planner status and execution time
 
-![A-Star Terminal](https://user-images.githubusercontent.com/111606469/192518905-0e5f253d-f966-42c6-a9e4-22fe3a548371.png)
+![A-Star Terminal](https://user-images.githubusercontent.com/111606469/192519097-8b9c177c-11a6-44ad-85f1-dab6f126f69e.png)
 
 * Terminal (Hybrid A*) -
 Displays the same information as the terminal in A*
