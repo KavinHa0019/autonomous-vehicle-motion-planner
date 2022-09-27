@@ -51,6 +51,7 @@ Displays coordinates of start and goal nodes, number of obstacles, scenario, mot
 
 * Terminal (Hybrid A*) -
 Displays the same information as the terminal in A*
+
 ![Hybrid A-Star Terminal](https://user-images.githubusercontent.com/111606469/192527007-6647d2b9-c952-487f-9519-244d3f952551.png)
 
 * Shortest path plot (A*, Highway) -
